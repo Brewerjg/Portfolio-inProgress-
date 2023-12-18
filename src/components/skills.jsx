@@ -5,10 +5,11 @@ import Html from '../assets/html.png'
 import Js from '../assets/javascript.png'
 import Mongo from '../assets/mongo.png'
 import ReactImg from '../assets/react.png'
+import Java from '../assets/java.png'
 
 const Skills =() => {
   return (
-    <div name='skills' className='bg-[#0a192f] w-full h-screen  text-gray-300'>
+    <div name='skills' className=' w-full bg-transparent h-screen  text-gray-300'>
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div>
                 <p className='text-4xl font-bold inlin border-b-4 border-pink-600'>Skills</p>
@@ -43,6 +44,10 @@ const Skills =() => {
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto' src={ReactImg} alt='reactimg' />
                     <p className='my-4'>REACT</p>
+                </div>
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                    <img className='w-20 scale-125 mx-auto' src={Java} alt='javaimg' />
+                    <p className='my-4'>Java</p>
                 </div>
             </div>
         </div>

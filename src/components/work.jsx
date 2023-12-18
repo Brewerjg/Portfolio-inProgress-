@@ -3,7 +3,7 @@ import realEstate from '../assets/realestate.jpg'
 
 function Work() {
   return (
-    <div name='work' className='w-full md:h-screen text-gray-300 bg-[#0a192f]'>
+    <div name='work' className='w-full md:h-screen text-gray-300 bg-transparent'>
         {/* container */}
         <div className='max-w-[1000px mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div className='mx-auto pb-8'>

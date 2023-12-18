@@ -27,3 +27,15 @@
         hsla(242, 74%, 61%, 0.8)   
     )!important;
 }
+
+.video-bg{
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    background-attachment: fixed;
+  }

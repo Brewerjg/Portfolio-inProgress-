@@ -1,6 +1,7 @@
 import React from 'react'
 import {HiArrowRight} from 'react-icons/hi'
 import background from '../assets/background.mp4'
+import { Link } from 'react-scroll'
 
 function Home() {
   return (
@@ -14,12 +15,14 @@ function Home() {
               <h3 className='text-black text-3xl sm:text-5xl font-bold'>I'm a Software Engineer student at the <span className='text-[#ef7f28]'>University of Tennessee</span>.</h3>
               <p className='text-black text-lg py-4 max-w-[700px]'>I'm a full-stack developer specializing in building exceptional digital experiences. I'm currently focusing on building responsive full-stack web applications.</p>
               <div>
-              <button className='text-black group border-black border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>
-              View Work
-              <span className='group-hover:rotate-90 duration-300'>
+                <Link to='work' smooth={true} duration={500}>
+                  <button className='text-black group border-black border-2 px-6 py-3 my-2 flex items-center hover:bg-[#f00] hover:border-[#f00]'>
+                    View Work
+                  <span className='group-hover:rotate-90 duration-300'>
                   <HiArrowRight className='ml-3 ' />
-              </span>
-              </button>
+                  </span>
+                  </button>
+                </Link>
           </div>
             </div>
         </div>

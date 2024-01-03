@@ -1,6 +1,7 @@
 import React from 'react'
 import realEstate from '../assets/realestate.jpg'
 import Tcof from '../assets/Tcof.png'
+import Album from'../assets/album.png'
 
 
 function Work() {
@@ -21,9 +22,12 @@ function Work() {
 
                     {/* hover effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
-                        <span className='text-2xl font-bold text-white tracking wider'>
-                            React JS Application
+                        <span className='p-2 text-2xl font-bold text-white tracking wider'>
+                            Vite Application
                         </span>
+                        <p className='p-2 font-bold text-white tracking wider'>
+                            Fake coffee shop landing page with admin dashboard. Upload products and register employees.
+                        </p>
                         <div className='pt-8 text-center'>
                             <a href="http://34.218.245.73/">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg '>Demo</button>
@@ -35,19 +39,22 @@ function Work() {
                         </div>
                     </div>
                 </div>
-                <div style={{backgroundImage: `url(${realEstate})`}}
+                <div style={{backgroundImage: `url(${Album})`}}
                     className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                     {/* hover effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
-                        <span className='text-2xl font-bold text-white tracking wider'>
-                            React JS Application
+                        <span className='p-2 text-2xl font-bold text-white tracking wider'>
+                            React Application
                         </span>
+                        <p className='p-2 font-bold text-white tracking wider'>
+                            Family photo sharing site.  Sort photos by family name.  Upload photos to albums.
+                        </p>
                         <div className='pt-8 text-center'>
-                            <a href="/">
+                            <a href="http://54.245.146.13/">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg '>Demo</button>
                             </a>
-                            <a href="/">
+                            <a href="https://github.com/Brewerjg/family">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
 

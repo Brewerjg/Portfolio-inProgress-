@@ -12,10 +12,10 @@ const About=()=> {
                 
             <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
                 <div className='sm:text-right text-4xl font-bold '>
-                    <p>I'm Jason, nice to meet you. Please take a look around.</p>
+                    <p>I'm Jason, here is a little bit about who I am.</p>
                 </div>
                 <div className='bg-white bg-opacity-60 p-6 rounded-2xl text-black'>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim delectus neque suscipit doloremque voluptas aliquam ipsam, est repellat, architecto incidunt, consequuntur quod minus adipisci perferendis numquam nam vel inventore sequi.</p>
+                    <p>After 13 years in the military and 3 years working as a private contractor in the Middle East.  I was searching for a new challenge.  I found that I loved coding and the satisfaction of solving problems.  I attended Coding Dojo's software development program and learned a great deal.  However, I wanted to know more.  I found the perfect computer science program at the University of Tennessee.  I am currently taking courses in Algorithms and Machine learning.</p>
                 </div>
             </div>
             </div>

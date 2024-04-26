@@ -51,7 +51,7 @@ function Work() {
                             Family photo sharing site.  Sort photos by family name.  Upload photos to albums.
                         </p>
                         <div className='pt-8 text-center'>
-                            <a href="http://54.245.146.13/">
+                            <a href="http://35.93.154.54/">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg '>Demo</button>
                             </a>
                             <a href="https://github.com/Brewerjg/family">

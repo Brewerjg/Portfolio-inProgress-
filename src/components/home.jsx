@@ -13,7 +13,7 @@ function Home() {
               <p className='text-black text-lg'>Hi my name is</p>
               <h1 className='text-black text-4xl sm:text-7xl font-bold'>Jason Grammer</h1>
               <h3 className='text-black text-3xl sm:text-5xl font-bold'>I'm a Software Engineer student at the <span className='text-[#ef7f28]'>University of Tennessee</span>.</h3>
-              <p className='text-black text-lg py-4 max-w-[700px]'>I'm a full-stack developer specializing in building exceptional digital experiences. I'm currently focusing on building responsive full-stack web applications.</p>
+              <p className='text-black text-lg py-4 max-w-[700px]'>I'm a full-stack developer who believes that one should never stop learning.  I am currently working on my masters degree in an effort to go from developer to engineer. </p>
               <div>
                 <Link to='work' smooth={true} duration={500}>
                   <button className='text-black group border-black border-2 px-6 py-3 my-2 flex items-center hover:bg-[#f00] hover:border-[#f00]'>
